@@ -27,6 +27,6 @@ class QRCode:
 
 
 if __name__ == "__main__":
-    qr = QRCode("Sample Train Ticket", 6)
-    output_file = "ticket.png"
+    qr = QRCode("https://www.youtube.com/watch?v=dQw4w9WgXcQ", 6)
+    output_file = "rickroll.png"
     qr.generate_png(output_filename=output_file)
